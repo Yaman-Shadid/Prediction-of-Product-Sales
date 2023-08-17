@@ -1,15 +1,50 @@
 # Prediction of Product Sales
 
+Author:
+Yaman Shadid
+
 ## Introduction
 
-The project aims to analyze and predict sales patterns for a diverse range of products. The dataset used in this project contains information about various products, such as item attributes, historical sales data, promotional activities, and other relevant features. Leveraging advanced machine learning algorithms, the project seeks to uncover valuable insights and create accurate sales forecasts. By understanding the factors influencing product sales, businesses can make informed decisions regarding inventory management, marketing strategies, and revenue optimization, ultimately enhancing their overall performance and competitiveness in the market.
+The objective is to identify the optimal predictors that will enhance item sales within the context of a grocery store organization.
+
+## Data
+
+The dataset used in this project contains information about various products, such as item attributes, historical sales data, promotional activities, and other relevant features.
+
+## Methods
+
+1. **Data Collection and Source Selection:** The data was collected from [Big Mart Sales Prediction], which was chosen based on its relevance and reliability for the project's objectives.
+
+2. **Data Cleaning:** The collected data underwent thorough cleaning to handle missing values, outliers, and inconsistencies to ensure the data's quality and integrity.
+
+## Data Dictionary
+
+![download](https://github.com/Yaman-Shadid/Prediction-of-Product-Sales/assets/116229037/3c0ffbb0-2ab4-41f6-933e-8a3fb3c82e53)
+
 
 ## Key Visuals
 
-![Item_Outlet_Sales](https://github.com/Yaman-Shadid/Prediction-of-Product-Sales/assets/116229037/bf978c22-2605-4d88-963f-5472a9d12618)
+There exists a strong correlation between the highest item price of the product and its corresponding item sales.
 
-The box plot above showcases the distribution of "Item_Outlet_Sales". It helps us understand the variation in sales across the data set and identify any potential outliers that might impact overall sales analysis.
+![download](https://github.com/Yaman-Shadid/Prediction-of-Product-Sales/assets/116229037/a7d524b7-89cf-4d25-817f-98fa0631eba9)
 
-![Item_Fat_Content](https://github.com/Yaman-Shadid/Prediction-of-Product-Sales/assets/116229037/c1be1d74-803d-49d0-9c9d-4c2348332453)
+Item Sales based on Fat
 
-This bar graph represents the distribution of items based on their fat content. The x-axis shows different fat content categories (e.g., "Low Fat," "Regular") while the y-axis displays the frequency of items in each category. It helps us understand the proportion of low-fat and regular items in the store's inventory.
+![download](https://github.com/Yaman-Shadid/Prediction-of-Product-Sales/assets/116229037/5b1cb354-5886-4ebd-8d9b-b31ebff009b0)
+
+Items labeled as "Regular Fat" have been observed to exhibit higher sales compared to those labeled as "Low Fat."
+
+## Model
+
+
+
+Utilizing a **Random Forest Model**, we conducted item sales predictions, achieving a testing data R-Squared value of 0.46 and an RMSE of 1093.
+
+These metrics indicate that our model can approximate item sales with a variance of 0.46 from the target price.
+
+## Reccomendations
+
+Additional improvements are required to get a heightened level of optimization, leading to a more favorable model capable of accurately forecasting sales. This ongoing refinement process aims to enhance the model's predictive capabilities, ensuring its effectiveness in foreseeing sales trends and patterns.
+
+## For further information
+For any additional questions, please contact **Ymmnshadid@gmail.com**
