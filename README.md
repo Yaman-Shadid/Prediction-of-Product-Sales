@@ -56,8 +56,6 @@ Additional improvements are required to get a heightened level of optimization, 
 
 
 **Random Forest Feature**
-
-# Random Forest Feature Importances
 ![Random Forest Feature Importances](./Prediction-of-Product-Sales/rf_importances.png)
 
 **Top 5 features are:**
