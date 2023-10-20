@@ -46,5 +46,27 @@ These metrics indicate that our model can approximate item sales with a variance
 
 Additional improvements are required to get a heightened level of optimization, leading to a more favorable model capable of accurately forecasting sales. This ongoing refinement process aims to enhance the model's predictive capabilities, ensuring its effectiveness in foreseeing sales trends and patterns.
 
+## Interpretation for revisited model
+
+**Linear regression:**
+![Linear Regression Coefficients](./Prediction-of-Product-Sales/lr_coefficients.png)
+- For a product being in "Supermarket Type2", the sales would increase by 3.32e+16 units compared to a product not being in this supermarket type, keeping all other factors constant.
+- For a product being sold in "OUT035", the sales would increase by 2.25e+16 units compared to a product not being sold in this outlet, keeping all other factors constant.
+- For a product being sold in "OUT017", the sales would increase by 2.14e+16 units compared to a product not being sold in this outlet, keeping all other factors constant.
+
+
+**Random Forest Feature**
+
+# Random Forest Feature Importances
+![Random Forest Feature Importances](./Prediction-of-Product-Sales/rf_importances.png)
+
+**Top 5 features are:**
+- Item_MRP
+- Item_Visibility
+- Item_Weight
+- Outlet_Type_Supermarket Type1
+- Outlet_Size_Unknown
+
+
 ## For further information
 For any additional questions, please contact **Ymmnshadid@gmail.com**
