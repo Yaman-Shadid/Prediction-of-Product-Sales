@@ -49,14 +49,14 @@ Additional improvements are required to get a heightened level of optimization, 
 ## Interpretation for revisited model
 
 **Linear regression:**
-![Linear Regression Coefficients](./Prediction-of-Product-Sales/lr_coefficients.png)
+![Linear Regression Coefficients](lr_coefficients.png)
 - For a product being in "Supermarket Type2", the sales would increase by 3.32e+16 units compared to a product not being in this supermarket type, keeping all other factors constant.
 - For a product being sold in "OUT035", the sales would increase by 2.25e+16 units compared to a product not being sold in this outlet, keeping all other factors constant.
 - For a product being sold in "OUT017", the sales would increase by 2.14e+16 units compared to a product not being sold in this outlet, keeping all other factors constant.
 
 
 **Random Forest Feature**
-![Random Forest Feature Importances](./Prediction-of-Product-Sales/rf_importances.png)
+![Random Forest Feature Importances](rf_importances.png)
 
 **Top 5 features are:**
 - Item_MRP
