@@ -65,6 +65,19 @@ Additional improvements are required to get a heightened level of optimization, 
 - Outlet_Establishment_Year
 - Outlet_Location_Type
 
+## Interpretation of Shap Values in Summary Plots
+
+**low sale lime explanation**
+![low sale lime explanation](low_sale_lime_explanation.png)
+
+- The dominant factor shaping the prediction for this product is the Item MRP
+
+**high sale explanation**
+![high sale explanation](high_sale_explanation.png)
+
+- Excluding Item MRP, the product with the highest sales value is Item_Type_Hard Drinks.
+- Another significant influencer is the product's Maximum Retail Price (MRP).
 
 ## For further information
 For any additional questions, please contact **Ymmnshadid@gmail.com**
+
