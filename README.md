@@ -70,18 +70,21 @@ Additional improvements are required to get a heightened level of optimization, 
 **low sale lime explanation**
 ![low sale lime explanation](low_sale_lime_explanation.png)
 
-- The dominant factor shaping the prediction for this product is the Item MRP
+- The dominant factor shaping the prediction for this product is the Item MRP, and then Item type Seafood
+
+![Force Plot](Shap_low)
+
+- The dominant factor in the force plot is still item MRP.
 
 **high sale explanation**
-![high sale explanation](high_sale_explanation.png)
+![high sale lime explanation](high_sale_explanation.png)
 
 - Excluding Item MRP, the product with the highest sales value is Item_Type_Hard Drinks.
 - Another significant influencer is the product's Maximum Retail Price (MRP).
 
-**Shap Plots**
-![Force Plot 1](Shap 1.png)
+![Force Plot](Shap_high.png)
 
-![Force Plot 2](Shap 2.png)
+- The force plot is influenced by Item MRP, Item Weight, and Visibility.
 
 ## For further information
 For any additional questions, please contact **Ymmnshadid@gmail.com**
