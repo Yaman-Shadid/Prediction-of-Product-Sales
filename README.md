@@ -78,6 +78,11 @@ Additional improvements are required to get a heightened level of optimization, 
 - Excluding Item MRP, the product with the highest sales value is Item_Type_Hard Drinks.
 - Another significant influencer is the product's Maximum Retail Price (MRP).
 
+**Shap Plots**
+![Force Plot 1](Shap 1.png)
+
+![Force Plot 2](Shap 2.png)
+
 ## For further information
 For any additional questions, please contact **Ymmnshadid@gmail.com**
 
